@@ -19,14 +19,14 @@
 		include "../includes/header.php";
 	?>
 	<div>
-		<div class="container-fluid top">
+		<div class="container top">
 			<div class="jumbotron">
 				<h1>Welcome to our E-Store!</h1>
 				<p>We have the best mobile deals for you. No need to hunt around, we have all in one place.</p>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 1</div>
                         <div class="panel-body">
                         	<center>
@@ -37,12 +37,12 @@
                             <h4>Redmi Note 9 Pro Max</h4>
                             <p>Price: ₹ 17,000 </p>
                             <p>Xiaomi Redmi Note 9 Pro Max smartphone runs on Android v10 (Q) operating system. The phone is powered by Octa core (2.3 GHz, Dual core, Kryo 465 + 1.8 GHz, Hexa Core, Kryo 465) processor. It runs on the Qualcomm Snapdragon 720G Chipset. It has 6 GB RAM and 64 GB internal storage.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 2</div>
                         <div class="panel-body">
                         	<center>
@@ -52,13 +52,13 @@
                         <div class="panel-footer">
                             <h4>Redmi Note 9 Pro</h4>
                             <p>Price: ₹ 14,000 </p>
-                            <p>It has a 6.67-inch LCD screen with a 60Hz refresh rate and hole-punch front camera at the top. The processor is a Qualcomm Snapdragon 720G which is surprisingly powerful for this segment. ... There's also an 8-megapixel wide-angle camera, a 5-megapixel macro camera, and a 2-megapixel depth sensor.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <p>It has a 6.67-inch LCD screen with a 60Hz refresh rate and hole-punch front camera at the top. The processor is a Qualcomm Snapdragon 720G which is surprisingly powerful for this segment. There's also an 8-megapixel wide-angle camera, a 5 MP macro camera, and a 2-megapixel depth sensor.</p>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 3</div>
                         <div class="panel-body">
                         	<center>
@@ -69,7 +69,7 @@
                             <h4>Redmi 8A Dual</h4>
                             <p>Price: ₹ 9,000 </p>
                             <p>Redmi 8A Dual is powered by a 1.45GHz octa-core Qualcomm Snapdragon 439 processor that features 4 cores clocked at 1.95GHz and 4 cores clocked at 1.45GHz. It comes with 2GB of RAM. The Redmi 8A Dual runs Android 9.0 and is powered by a 5000mAh battery. It is very cheap and affordable also.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
@@ -87,12 +87,12 @@
                             <h4>iPhone XR</h4>
                             <p>Price: ₹ 53,000 </p>
                             <p>The phone comes with a 6.10-inch touchscreen display with a resolution of 828x1792 pixels at a pixel density of 326 pixels per inch (ppi) and an aspect ratio of 19.5:9. Apple iPhone XR is powered by a hexa-core Apple A12 Bionic processor. It comes with 3GB of RAM. It is a very good product.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 5</div>
                         <div class="panel-body">
                         	<center>
@@ -103,12 +103,12 @@
                             <h4>iPhone XS Max</h4>
                             <p>Price: ₹ 69,000 </p>
                             <p>The Apple iPhone XS Max is a smartphone that was tested with the iOS 12.0 operating system. This model weighs 7.4 ounces, has a 6.5 inch touch screen display, 12-megapixel main camera, and 7-megapixel selfie camera. It comes with 4GB of RAM. It was tested with 64GB of storage.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
 				<div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 6</div>
                         <div class="panel-body">
                         	<center>
@@ -118,8 +118,8 @@
                         <div class="panel-footer">
                             <h4>iPhone 11</h4>
                             <p>Price: ₹ 69,000 </p>
-                            <p>iPhone 11 features. The camera has wide and ultra-wide lenses, rather than wide and telephoto like many people had predicted. The front-facing camera has been updated to 12 MP with wide-angle selfie support when the phone is in landscape. You can also take 4K video at 60 fps, as well as slow-mo videos.</p>
-                            <a href="#" data-toggle="modal" data-target="#loginmodal"><button class="btn btn-primary btn-block">Order Now!</button></a>
+                            <p>iPhone 11 features. The camera has wide and ultra-wide lenses, rather than wide and telephoto like many people had predicted. The front-facing camera has been updated to 12 MP with wide-angle selfie support when the phone is in landscape. You can also take 4K video at 60 fps, as well as slow-mo.</p>
+                            <a href="login.php"><button class="btn btn-primary btn-block">Order Now!</button></a>
                         </div>
                     </div>
 				</div>
@@ -127,7 +127,7 @@
 		</div>
 	</div>
 	<?php 
-		include "../includes/Footer-Bot.php";
+		include "../includes/Footer.php";
 	?>
 </body>
 </html>

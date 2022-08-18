@@ -20,14 +20,14 @@
         include "../includes/check_if_added.php";
     ?>
     <div>
-        <div class="container-fluid top">
+        <div class="container top">
             <div class="jumbotron">
                 <h1>Welcome to our E-Store!</h1>
                 <p>We have the best mobile deals for you. No need to hunt around, we have all in one place.</p>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 1</div>
                         <div class="panel-body">
                             <center>
@@ -48,7 +48,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 2</div>
                         <div class="panel-body">
                             <center>
@@ -58,7 +58,7 @@
                         <div class="panel-footer">
                             <h4>Redmi Note 9 Pro</h4>
                             <p>Price: ₹ 14,000 </p>
-                            <p>It has a 6.67-inch LCD screen with a 60Hz refresh rate and hole-punch front camera at the top. The processor is a Qualcomm Snapdragon 720G which is surprisingly powerful for this segment. ... There's also an 8-megapixel wide-angle camera, a 5-megapixel macro camera, and a 2-megapixel depth sensor.</p>
+                            <p>It has a 6.67-inch LCD screen with a 60Hz refresh rate and hole-punch front camera at the top. The processor is a Qualcomm Snapdragon 720G which is surprisingly powerful for this segment. There's also an 8MP wide-angle camera, a 5-megapixel macro camera, and a 2-megapixel depth sensor.</p>
                             <?php if(check_if_added_to_cart(2)) {
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else { ?>
@@ -69,7 +69,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 3</div>
                         <div class="panel-body">
                             <center>
@@ -92,7 +92,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 4</div>
                         <div class="panel-body">
                             <center>
@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 5</div>
                         <div class="panel-body">
                             <center>
@@ -134,7 +134,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6">
-                    <div class="panel panel-default text-center">
+                    <div class="panel panel-info text-center">
                         <div class="panel-heading">Mobile 6</div>
                         <div class="panel-body">
                             <center>
@@ -144,7 +144,7 @@
                         <div class="panel-footer">
                             <h4>iPhone 11</h4>
                             <p>Price: ₹ 69,000 </p>
-                            <p>iPhone 11 features. The camera has wide and ultra-wide lenses, rather than wide and telephoto like many people had predicted. The front-facing camera has been updated to 12 MP with wide-angle selfie support when the phone is in landscape. You can also take 4K video at 60 fps, as well as slow-mo videos.</p>
+                            <p>iPhone 11 features. The camera has wide and ultra-wide lenses, rather than wide and telephoto like many people had predicted. The front-facing camera has been updated to 12 MP with wide-angle selfie support when the phone is in landscape. You can also take 4K video at 60 fps, as well as slow-mo.</p>
                             <?php if(check_if_added_to_cart(6)) {
                                     echo '<a href="#" class="btn btn-block btn-success" disabled>Added to cart</a>';
                                 } else { ?>
@@ -156,5 +156,8 @@
             </div>
         </div>
     </div>
+    <?php 
+        include "../includes/Footer.php";
+    ?>
 </body>
 </html>
