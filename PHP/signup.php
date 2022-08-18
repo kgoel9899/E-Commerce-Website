@@ -52,7 +52,7 @@
 		</div>
 	</div>
 	<?php 
-		include "../includes/Footer-Bot.php";
+		include "../includes/Footer.php";
 	?>
 </body>
 </html>

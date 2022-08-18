@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1:3308
--- Generation Time: Jul 13, 2020 at 12:33 PM
--- Server version: 8.0.18
--- PHP Version: 7.3.12
+-- Host: 127.0.0.1:3306
+-- Generation Time: Aug 18, 2022 at 02:03 PM
+-- Server version: 5.7.36
+-- PHP Version: 7.4.26
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -64,17 +63,14 @@ CREATE TABLE IF NOT EXISTS `users` (
   `city` varchar(255) NOT NULL,
   `address` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users`
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `contact`, `city`, `address`) VALUES
-(1, 'Ksh', 'asdf98sd@as.com', '5c249c942c4ed13a8a4cc1a2a08bc0df', '0000000000', 'adsgfdsad', 'awerdfggsresf'),
-(2, 'asdfg as', 'aesfdbfvdsas@sdcvfgds.com', '5c249c942c4ed13a8a4cc1a2a08bc0df', '9999999999', 'erfg', 'edfgbvcsrf'),
-(3, 'waa', 'erfgtsrewsf@sdfv.com', '5c249c942c4ed13a8a4cc1a2a08bc0df', '9999999999', 'dsefdgfg', 'erfgffds'),
-(4, 'aaa', 'aa@aa.com', 'd59b6ad4dd4667de6c6ac8c56b9e2293', '9999999999', 'sdfg', 'sdfghnb');
+(7, 'Kshitij Goel', 'temp@xyz.com', '470c47b4cdfb435cf872281bc7caecb0', '9999999999', 'ABC', 'DEF');
 
 -- --------------------------------------------------------
 
@@ -91,18 +87,15 @@ CREATE TABLE IF NOT EXISTS `users_items` (
   PRIMARY KEY (`id`),
   KEY `user_id` (`user_id`),
   KEY `item_id` (`item_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=30 DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `users_items`
 --
 
 INSERT INTO `users_items` (`id`, `user_id`, `item_id`, `status`) VALUES
-(13, 4, 1, 'Confirmed'),
-(14, 4, 2, 'Confirmed'),
-(15, 4, 1, 'Confirmed'),
-(16, 4, 2, 'Confirmed'),
-(17, 4, 3, 'Confirmed');
+(27, 7, 1, 'Confirmed'),
+(29, 7, 5, 'Confirmed');
 
 --
 -- Constraints for dumped tables
